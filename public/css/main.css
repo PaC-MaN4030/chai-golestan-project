@@ -21,7 +21,8 @@ div#app {
     div#app header div.logo {
       width: fit-content;
       transform: translate(-90%, 40%); }
-      div#app header div.logo img {
+      div#app header div.logo cu
+img {
         width: 100%;
         object-fit: cover; }
     div#app header div.menu {
@@ -34,7 +35,7 @@ div#app {
       align-items: center;
       position: absolute;
       top: 0;
-      left: -5%;
+      left: -7%;
       padding-bottom: 20px;
       box-sizing: border-box; }
       div#app header div.menu nav {
@@ -75,7 +76,7 @@ div#app {
             div#app header div.menu nav ul li.a div.sub-menu {
               display: none;
               width: 200px;
-              height: 300px;
+              height: auto;
               background-color: #2b2b2b;
               border: 1px solid black;
               position: absolute;
@@ -84,13 +85,12 @@ div#app {
               z-index: 51; }
               div#app header div.menu nav ul li.a div.sub-menu div.sub-data {
                 width: 100%;
-                height: auto;
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: center;
                 align-items: start;
-                margin-right: 5px;
-                padding: 11px;
+                margin-right: 10px;
+                padding: 12px;
                 box-sizing: border-box;
                 cursor: pointer; }
                 div#app header div.menu nav ul li.a div.sub-menu div.sub-data:hover > a {
@@ -98,6 +98,7 @@ div#app {
                 div#app header div.menu nav ul li.a div.sub-menu div.sub-data a {
                   font-family: site;
                   font-size: 15px;
+                  font-weight: lighter;
                   text-decoration: none;
                   color: #afb2b4;
                   transition: 300ms; }

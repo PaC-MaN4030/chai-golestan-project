@@ -21,6 +21,7 @@ div#app {
     div.logo {
       width: fit-content;
       transform: translate(-90%, 40%);
+      cursor: pointer;
       img {
         width: 100%;
         object-fit: cover;
@@ -36,7 +37,7 @@ div#app {
       align-items: center;
       position: absolute;
       top: 0;
-      left: -5%;
+      left: -7%;
       padding-bottom: 20px;
       box-sizing: border-box;
       nav {
@@ -80,7 +81,7 @@ div#app {
             div.sub-menu {
               display: none;
               width: 200px;
-              height: 300px;
+              height: auto;
               background-color: #2b2b2b;
               border: 1px solid black;
               position: absolute;
@@ -89,13 +90,12 @@ div#app {
               z-index: 51;
               div.sub-data {
                 width: 100%;
-                height: auto;
                 display: flex;
                 flex-flow: column nowrap;
                 justify-content: center;
                 align-items: start;
-                margin-right: 5px;
-                padding: 11px;
+                margin-right: 10px;
+                padding: 12px;
                 box-sizing: border-box;
                 cursor: pointer;
                 &:hover > a {
@@ -104,6 +104,7 @@ div#app {
                 a {
                   font-family: site;
                   font-size: 15px;
+                  font-weight: lighter;
                   text-decoration: none;
                   color: #afb2b4;
                   transition: 300ms;
