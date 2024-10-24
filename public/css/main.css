@@ -20,9 +20,9 @@ div#app {
     z-index: 50; }
     div#app header div.logo {
       width: fit-content;
-      transform: translate(-90%, 40%); }
-      div#app header div.logo cu
-img {
+      transform: translate(-90%, 40%);
+      cursor: pointer; }
+      div#app header div.logo img {
         width: 100%;
         object-fit: cover; }
     div#app header div.menu {
@@ -102,6 +102,67 @@ img {
                   text-decoration: none;
                   color: #afb2b4;
                   transition: 300ms; }
+  div#app div.elementor-flex {
+    width: 100%;
+    height: 460px;
+    background-color: #efefef;
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; }
+    div#app div.elementor-flex div.lottery-users {
+      width: 460px;
+      height: 75%;
+      padding-right: 20px;
+      box-sizing: border-box;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      gap: 20px; }
+      div#app div.elementor-flex div.lottery-users h2 {
+        font-family: site;
+        font-weight: 500;
+        color: #ff0000;
+        font-size: 28px; }
+      div#app div.elementor-flex div.lottery-users h4 {
+        font-family: site;
+        font-weight: 300;
+        color: #58595b;
+        font-size: 18px; }
+      div#app div.elementor-flex div.lottery-users h5 {
+        font-family: site;
+        font-weight: 100;
+        font-size: 15px;
+        color: #898989;
+        line-height: 33px; }
+      div#app div.elementor-flex div.lottery-users div.more-btn {
+        width: 135px;
+        height: 40px;
+        background-color: #fff;
+        border-radius: 10px;
+        border: 1px solid #a09e9e;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 300ms; }
+        div#app div.elementor-flex div.lottery-users div.more-btn:hover {
+          background-color: #ff0000; }
+        div#app div.elementor-flex div.lottery-users div.more-btn:hover > a {
+          color: #fff; }
+        div#app div.elementor-flex div.lottery-users div.more-btn a {
+          font-family: site;
+          font-size: 14px;
+          color: #a09e9e; }
+    div#app div.elementor-flex div.lottery-logo {
+      width: 460px;
+      height: 75%;
+      display: flex;
+      justify-content: end;
+      align-items: center;
+      margin-right: 20px; }
 
 li.b {
   border-left: 1px solid gray; }
